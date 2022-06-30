@@ -44,6 +44,7 @@ function NewTransactionModal({ isOpen, onRequestClose }: ModalProps) {
               setType("deposit");
             }}
             isActive={type === "deposit"}
+            activeColor="green"
           >
             <img src={incomeImg} alt="Entrada" />
             <span> Entrada </span>
@@ -55,6 +56,7 @@ function NewTransactionModal({ isOpen, onRequestClose }: ModalProps) {
               setType("withdrawn");
             }}
             isActive={type === "withdrawn"}
+            activeColor="red"
           >
             <img src={outcomeImg} alt="Saída" />
             <span> Entrada </span>
