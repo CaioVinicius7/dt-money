@@ -7,6 +7,10 @@ export const Container = styled.div`
     width: 100%;
     border-spacing: 0 0.5rem;
 
+    tr {
+      border-radius: 0.25rem;
+    }
+
     th {
       color: var(--text-body);
       font-weight: 400;
@@ -19,7 +23,6 @@ export const Container = styled.div`
       border: 0;
       background: var(--shape);
       color: var(--text-body);
-      border-radius: 0.25rem;
 
       &:first-child {
         color: var(--text-title);
