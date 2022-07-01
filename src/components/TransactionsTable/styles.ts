@@ -16,6 +16,7 @@ export const Container = styled.div`
       font-weight: 400;
       padding: 1rem 2rem;
       line-height: 1.5rem;
+      text-align: left;
     }
 
     td {
