@@ -94,7 +94,7 @@ function NewTransactionModal({ isOpen, onRequestClose }: ModalProps) {
             activeColor="red"
           >
             <img src={outcomeImg} alt="Saída" />
-            <span> Entrada </span>
+            <span> Saída </span>
           </RadioBox>
         </TransactionTypeContainer>
 
